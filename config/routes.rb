@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   resources :people
+  resources :events
 
   root :to => "welcome#index"
   # The priority is based upon order of creation: first created -> highest priority.
